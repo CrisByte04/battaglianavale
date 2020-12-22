@@ -1,2 +1,3 @@
-# battaglianavale.github.io
-Gioco della Battaglia Navale
+# Battaglia Navale
+
+Gioco online della Battaglia Navale by Cristian Cernomaz
