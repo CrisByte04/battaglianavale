@@ -1,16 +1,33 @@
+/* General Settings */
 * {
 	margin: 0;
 	padding: 0;
 	color: white;
 	font-family: Montserrat;
 }
-
 html {
 	width: 100%;
 	height: 100%;
-	background-image: linear-gradient(45deg, #03070c, #0c1a31);
+	background: linear-gradient(45deg, #03070c, #0f213e);
 }
 
+/* Title */
+.title {
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(180deg, #000000, #111111 55%, #000000);
+	font-size: 42px;
+}
+
+/* Info Box */
 .info {
 	position: absolute;
 	top: 50%;
@@ -25,9 +42,8 @@ html {
 	border-radius: 12px;
 	box-shadow: 0px 0px 8px white;
 }
-
-.title,
-.status {
+.status,
+.author {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -35,15 +51,13 @@ html {
 	height: 100%;
 	font-size: 20px;
 }
-
-.title {
-	background: #0f213e;
+.status {
+	background: #111111;
 	border-top-left-radius: 12px;
 	border-top-right-radius: 12px;
 }
-
-.status {
-	background: #0c1a31;
+.author {
+	background: #000000;
 	border-bottom-left-radius: 12px;
 	border-bottom-right-radius: 12px;
 }
