@@ -7,7 +7,7 @@
 }
 @font-face {
 	font-family: EvilEmpire;
-	src: url(./EvilEmpire.ttf);
+	src: url(/Fonts/EvilEmpire.ttf);
 }
 html {
 	width: 100%;
@@ -75,6 +75,11 @@ body {
 	border: none;
 	outline: none;
 	transition: 1s ease;
+}
+.nameInput::placeholder {
+	font-size: 22px;
+	font-weight: 100;
+	text-shadow: none;
 }
 .nameContainer:focus-within .nameInput,
 .nameContainer:hover .nameInput {

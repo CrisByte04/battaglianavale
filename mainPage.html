@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./Styles/style.css">
   <title>Battaglia Navale | Home</title>
 </head>
 <body>
@@ -14,14 +14,32 @@
   <!-- Start Page -->
   <div class="startPage">
     <!-- Nome -->
-    <div class="nameContainer">
-      <input type="text" class="nameInput">
+    <div class="nameContainer" id="nameContainer">
+      <input class="nameInput" id="name" type="text" placeholder="username" onfocus="inputFocus()" oninput="inputText()">
     </div>
     <!-- Play -->
-    <div class="playContainer">
+    <div class="playContainer" onclick="playClick()">
       <p class="playText">Play</p>
     </div>
   </div>
 
 </body>
+<script>
+  function playClick() {
+    if (document.getElementById("name").value != "") {
+      document.location = "index.html";
+    } else {
+      document.getElementById("nameContainer").style.border = "2px solid red";
+    }
+  }
+  function inputFocus() {
+    document.getElementById("nameContainer").style.border = "2px solid white";
+  }
+  function inputText() {
+    var username = document.getElementById("name").value;
+    if (username.length > 11) {
+      document.getElementById("name").value = username.substring(0, 12);
+    }
+  }
+</script>
 </html>
