@@ -5,10 +5,6 @@
 	font-family: "Montserrat", sans-serif;
 	font-weight: 700;
 }
-@font-face {
-	font-family: EvilEmpire;
-	src: url(/EvilEmpire.ttf);
-}
 html {
 	width: 100%;
 	height: 100%;
@@ -30,7 +26,7 @@ body {
 	background: rgba(0, 0, 0, 0.6);
 	color: white;
 	border-bottom: 2px solid white;
-	font-family: EvilEmpire;
+	font-family: "EvilEmpire";
 	font-size: 40px;
 	letter-spacing: 4px;
 	-moz-user-select: none;
