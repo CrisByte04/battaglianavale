@@ -2,8 +2,8 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: Montserrat;
-	font-weight: 600;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
 }
 @font-face {
 	font-family: EvilEmpire;
@@ -70,7 +70,6 @@ body {
 	background: none;
 	color: white;
 	font-size: 26px;
-	text-transform: capitalize;
 	text-shadow: 0px 0px 12px white;
 	border: none;
 	outline: none;
@@ -78,7 +77,7 @@ body {
 }
 .nameInput::placeholder {
 	font-size: 22px;
-	font-weight: 100;
+	font-weight: 200;
 	text-shadow: none;
 }
 .nameContainer:focus-within .nameInput,
