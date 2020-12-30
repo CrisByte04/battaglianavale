@@ -102,3 +102,10 @@ body {
 		margin: 1px;
 	}
 }
+@media screen and (max-width: 440px) {
+	.buttonGriglia {
+		width: 32px;
+		height: 32px;
+		margin: 1px;
+	}
+}
