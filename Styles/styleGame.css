@@ -95,7 +95,7 @@ body {
 		margin: 1px;
 	}
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 440px) {
 	.buttonGriglia {
 		width: 34px;
 		height: 34px;
