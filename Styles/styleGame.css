@@ -88,24 +88,10 @@ body {
 		margin: 1px;
 	}
 }
-@media screen and (max-width: 460px) {
-	.buttonGriglia {
-		width: 36px;
-		height: 36px;
-		margin: 1px;
-	}
-}
 @media screen and (max-width: 450px) {
 	.buttonGriglia {
-		width: 34px;
-		height: 34px;
-		margin: 1px;
-	}
-}
-@media screen and (max-width: 440px) {
-	.buttonGriglia {
-		width: 32px;
-		height: 32px;
+		width: fit-content;
+		height: fit-content;
 		margin: 1px;
 	}
 }
